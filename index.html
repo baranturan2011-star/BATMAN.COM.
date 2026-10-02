@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Batman | Tarih & Güzellikler</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#07100d;color:#fff;line-height:1.6}
+:root{--gold:#d8ad45;--green:#0d2a20;--dark:#07100d;--card:#10241d}
+nav{position:fixed;top:0;left:0;right:0;z-index:99;background:rgba(5,12,10,.82);backdrop-filter:blur(12px);border-bottom:1px solid rgba(216,173,69,.25);display:flex;justify-content:space-between;align-items:center;padding:16px 7%}
+.logo{font-size:25px;font-weight:900;color:var(--gold);letter-spacing:2px}
+nav a{color:#eee;text-decoration:none;margin-left:24px;font-weight:600}
+nav a:hover{color:var(--gold)}
+.hero{min-height:100vh;display:flex;align-items:center;padding:120px 8% 70px;position:relative;overflow:hidden;background:linear-gradient(120deg,rgba(4,12,9,.96),rgba(6,24,17,.7)),url('https://cdn2.enuygun.com/media/lib/825x620/uploads/image/hasankeyf-oren-yeri-41462.webp') center/cover}
+.hero:after{content:"";position:absolute;inset:auto -10% -180px;height:350px;background:var(--dark);transform:rotate(-4deg)}
+.hero-content{max-width:760px;position:relative;z-index:2}
+.badge{display:inline-block;border:1px solid var(--gold);color:var(--gold);padding:7px 15px;border-radius:30px;margin-bottom:20px;font-weight:bold}
+h1{font-size:clamp(48px,8vw,92px);line-height:.95;margin-bottom:24px}
+h1 span{color:var(--gold)}
+.hero p{font-size:19px;color:#d7dedb;max-width:650px;margin-bottom:30px}
+.btn{display:inline-block;background:var(--gold);color:#111;text-decoration:none;padding:13px 24px;border-radius:10px;font-weight:800;margin-right:10px}
+.btn.alt{background:transparent;color:white;border:1px solid #777}
+section{padding:90px 8%}
+.section-title{text-align:center;margin-bottom:45px}
+.section-title small{color:var(--gold);font-weight:bold;letter-spacing:2px}
+.section-title h2{font-size:42px;margin:7px 0}
+.section-title p{color:#aeb9b4}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.card{background:linear-gradient(145deg,#122a21,#0b1814);border:1px solid rgba(216,173,69,.17);border-radius:20px;overflow:hidden;transition:.3s;box-shadow:0 15px 35px #0005}
+.card:hover{transform:translateY(-8px);border-color:rgba(216,173,69,.6)}
+.card img{width:100%;height:210px;object-fit:cover;display:block}
+.card-body{padding:22px}
+.card h3{font-size:24px;margin-bottom:8px;color:#fff}
+.card p{color:#b9c5c0;font-size:15px}
+.tag{display:inline-block;color:var(--gold);font-size:12px;font-weight:bold;text-transform:uppercase;letter-spacing:1px;margin-bottom:7px}
+.history{background:#0a1712}
+.timeline{max-width:900px;margin:auto;position:relative}
+.timeline:before{content:"";position:absolute;left:18px;top:0;bottom:0;width:2px;background:var(--gold)}
+.event{position:relative;padding:0 0 35px 55px}
+.dot{position:absolute;left:8px;top:4px;width:21px;height:21px;border-radius:50%;background:var(--gold);box-shadow:0 0 18px #d8ad4588}
+.event h3{color:var(--gold);font-size:22px}
+.event p{color:#c2cbc7}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:35px}
+.stat{background:#10231b;border-radius:18px;padding:25px;text-align:center;border:1px solid #ffffff0d}
+.stat strong{font-size:35px;color:var(--gold);display:block}
+.stat span{color:#aeb9b4}
+.cta{margin:30px 8% 80px;border-radius:25px;padding:60px 30px;text-align:center;background:linear-gradient(135deg,#17382b,#0c1a15);border:1px solid #d8ad4540}
+.cta h2{font-size:38px;margin-bottom:10px}
+footer{text-align:center;padding:30px;color:#8e9a95;border-top:1px solid #ffffff0d}
+@media(max-width:700px){
+ nav{padding:14px 5%}nav a{margin-left:10px;font-size:13px}
+ .hero{padding:120px 6% 80px}.hero p{font-size:16px}
+ section{padding:70px 6%}.section-title h2{font-size:34px}
+ .stats{grid-template-columns:1fr}
+ .card img{height:190px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">BATMAN</div>
+  <div>
+    <a href="#kesfet">Keşfet</a>
+    <a href="#tarih">Tarih</a>
+    <a href="#hakkinda">Hakkında</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="badge">GÜNEYDOĞU ANADOLU'NUN İNCİSİ</div>
+    <h1>Batman'ın <span>Güzelliklerini</span> Keşfet.</h1>
+    <p>Binlerce yıllık tarihi, eşsiz doğal güzellikleri ve kültürel mirasıyla Batman'ı yakından tanı.</p>
+    <a class="btn" href="#kesfet">Keşfetmeye Başla →</a>
+    <a class="btn alt" href="#tarih">Tarihe Git</a>
+  </div>
+</header>
+
+<section id="kesfet">
+  <div class="section-title">
+    <small>DOĞA & KÜLTÜR</small>
+    <h2>Batman'da Görülmesi Gereken Yerler</h2>
+    <p>Şehrin en dikkat çekici tarihi ve doğal noktalarından bazıları.</p>
+  </div>
+  <div class="grid">
+    <article class="card">
+      <img src="https://cdn2.enuygun.com/media/lib/825x620/uploads/image/hasankeyf-oren-yeri-41462.webp" alt="Hasankeyf">
+      <div class="card-body"><span class="tag">Tarihi Miras</span><h3>Hasankeyf</h3><p>Dicle Nehri kıyısında yer alan Hasankeyf, mağaraları, tarihi yapıları ve binlerce yıllık geçmişiyle Batman'ın en önemli değerlerinden biridir.</p></div>
+    </article>
+    <article class="card">
+      <img src="https://www.airial.travel/_next/image?q=75&url=https%3A%2F%2Fcoinventmediastorage.blob.core.windows.net%2Fmedia-storage-container%2Fgphoto_ChIJgX7HbC1Vc0ARAkdm25ZF1yI_0.jpg&w=3840" alt="Malabadi Köprüsü">
+      <div class="card-body"><span class="tag">Tarihi Köprü</span><h3>Malabadi Köprüsü</h3><p>Batman çevresinin simge tarihi yapılarından olan Malabadi Köprüsü, etkileyici taş mimarisiyle dikkat çeker.</p></div>
+    </article>
+    <article class="card">
+      <img src="https://www.batmangazetesi.com.tr/files/uploads/news/default/sason-da-doga-renk-soleni-sunuyor-778383.webp" alt="Sason">
+      <div class="card-body"><span class="tag">Doğa</span><h3>Sason</h3><p>Dağları, vadileri ve doğal manzaralarıyla Sason, doğayla iç içe zaman geçirmek isteyenler için dikkat çekici bir bölgedir.</p></div>
+    </article>
+    <article class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Mor_Kiryakus_Manastiri.jpg/1280px-Mor_Kiryakus_Manastiri.jpg" alt="Mor Kiryakus Manastırı">
+      <div class="card-body"><span class="tag">Kültür</span><h3>Mor Kiryakus</h3><p>Beşiri çevresindeki tarihi manastır, Batman'ın çok kültürlü geçmişini yansıtan önemli yapılardan biridir.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="history" id="tarih">
+  <div class="section-title">
+    <small>GEÇMİŞTEN BUGÜNE</small>
+    <h2>Batman'ın Tarihi</h2>
+    <p>Mezopotamya'nın zengin kültüründen günümüz Batman'ına uzanan kısa bir yolculuk.</p>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="dot"></div><h3>Antik Çağlar</h3><p>Batman ve çevresi, Mezopotamya ile Anadolu arasında önemli bir geçiş bölgesi olarak farklı medeniyetlere ev sahipliği yaptı.</p></div>
+    <div class="event"><div class="dot"></div><h3>Hasankeyf Dönemi</h3><p>Dicle kıyısındaki Hasankeyf, tarih boyunca önemli bir yerleşim ve ticaret merkezi olarak gelişti.</p></div>
+    <div class="event"><div class="dot"></div><h3>Petrol ve Şehirleşme</h3><p>Bölgede petrolün çıkarılması Batman'ın ekonomik ve sosyal gelişiminde önemli bir rol oynadı.</p></div>
+    <div class="event"><div class="dot"></div><h3>Günümüz Batman'ı</h3><p>Batman bugün tarihi mirasını, doğal güzelliklerini ve modern şehir yaşamını bir arada barındıran gelişen bir şehirdir.</p></div>
+  </div>
+  <div class="stats">
+    <div class="stat"><strong>Batman</strong><span>Tarih ve kültür</span></div>
+    <div class="stat"><strong>4+</strong><span>Öne çıkan gezi noktası</span></div>
+    <div class="stat"><strong>∞</strong><span>Keşfedilecek güzellik</span></div>
+  </div>
+</section>
+
+<section id="hakkinda">
+  <div class="cta">
+    <h2>Batman'ı Keşfetmeye Hazır mısın?</h2>
+    <p>Bu site, Batman'ın tarihi ve doğal güzelliklerini tanıtmak için hazırlanmıştır.</p>
+    <br>
+    <a class="btn" href="#kesfet">Yukarı Çık ↑</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Batman Tanıtım • Tarih • Doğa • Kültür
+</footer>
+
+</body>
+</html>
